@@ -17,7 +17,6 @@ import { MetadataArgsStorage } from './MetadataArgsStorage';
 
 export * from './Query';
 export * from './Mutation';
-
 export * from './AbstractGraphQLHooks';
 export * from './AbstractGraphQLQuery';
 export * from './GraphQLContext';

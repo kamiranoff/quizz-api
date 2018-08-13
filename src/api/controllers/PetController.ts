@@ -12,7 +12,9 @@ export class PetController {
 
     constructor(
         private petService: PetService
-    ) { }
+    ) {
+        console.log('IN THE CONSTRUCTOR');
+    }
 
     @Get()
     public find(): Promise<Pet[]> {
