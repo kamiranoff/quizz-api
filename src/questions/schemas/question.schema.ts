@@ -6,6 +6,7 @@ export const QuestionSchema = new Schema({
   options: [{
     option: String,
     id: Number,
+    _id: false
   }],
   answer: Number,
 });
